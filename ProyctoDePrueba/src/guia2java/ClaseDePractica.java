@@ -29,7 +29,9 @@ public class ClaseDePractica {
 
         //Pasar un nro a cadena 
         int numEntero = 3;
-        String numCadena = String.valueOf(numEntero);
+        String numCadena= String.valueOf(numEntero);
+        numCadena=leer.next();
+        System.out.println("de nro a cadena"+numCadena);
         //Pasar un cadena a un nro
         String nCadena = "7";
         int nEntero = Integer.parseInt(nCadena);
